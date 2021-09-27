@@ -2,6 +2,9 @@
 @import url("./css/button.css");
 @import url("./css/hero.css");
 @import url("./css/social.css");
+@import url("./css/comment.css");
+@import url("./css/card.css");
+@import url("./css/title.css");
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -14,6 +17,8 @@
   --body2: 14px/22px var(--fontBase);
   --button: bold 14px/22px var(--fontBase);
   --caption: 12px/19px var(--fontBase);
+  --comment-mobile: 24px/38px var(--fontBase);
+  --comment-desktop: 34px/55px var(--fontBase);
 
   --purple: #310a90;
   --green: #42e2b8;

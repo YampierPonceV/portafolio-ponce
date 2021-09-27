@@ -1,0 +1,32 @@
+.card .content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-block-size: 450px;
+}
+.card img {
+  width: 100%;
+}
+
+.card {
+  margin: 5rem 0;
+}
+
+.card .content-card p {
+  color: var(--purple);
+  font: var(--body1);
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .card:nth-child(2n) img {
+    order: 0;
+  }
+  .card img {
+    order: 2;
+  }
+}

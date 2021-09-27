@@ -3,8 +3,9 @@
   justify-content: space-between;
   align-items: center;
   block-size: 80px;
-  position: sticky;
-  top: 0;
+  margin-block-end: 16px;
+  /*  position: sticky;
+  top: 0; */
   backdrop-filter: blur(20px);
 }
 
