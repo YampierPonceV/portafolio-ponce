@@ -1,0 +1,18 @@
+.button {
+  text-decoration: none;
+  background: var(--purple);
+  color: var(--white);
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font: var(--button);
+  text-align: center;
+}
+
+.is-active {
+  border: 2px solid var(--purple);
+  color: var(--purple);
+}
