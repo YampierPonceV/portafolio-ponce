@@ -23,7 +23,7 @@
     align-items: center;
     gap: 40px;
   }
-  .card:nth-child(2n) img {
+  .card:nth-child(3n) img {
     order: 0;
   }
   .card img {

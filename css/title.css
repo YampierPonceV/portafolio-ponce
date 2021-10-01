@@ -9,6 +9,7 @@
   color: var(--white);
   box-shadow: -4px 4px 0 var(--white);
   text-transform: uppercase;
+  width: max-content;
 }
 
 @media screen and (min-width: 768px) {

@@ -5,6 +5,7 @@
 @import url("./css/comment.css");
 @import url("./css/card.css");
 @import url("./css/title.css");
+@import url("./css/comment-projects.css");
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -23,6 +24,7 @@
   --purple: #310a90;
   --green: #42e2b8;
   --white: #ffffff;
+  --bg-comment: background: rgba(255, 255, 255, 0.2);
 
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,

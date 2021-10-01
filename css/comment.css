@@ -15,3 +15,12 @@
 .comment p.comment-span-two {
   font: var(--headline5);
 }
+
+@media screen and (min-width: 768px) {
+  .comment {
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+    padding-block-start: 200px;
+    padding-block-end: 200px;
+  }
+}
