@@ -18,3 +18,10 @@ a.is-active {
   color: var(--purple);
   background: transparent;
 }
+
+@media screen and (min-width: 780px) {
+  .secctions-buttons {
+    display: flex;
+    gap: 16px;
+  }
+}
