@@ -1,0 +1,34 @@
+.footer {
+  margin-top: 80px;
+  display: flex;
+}
+.wrapper {
+  max-width: 1366px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  margin: auto;
+}
+
+.wrapper .footer-herad {
+  color: var(--purple);
+}
+
+.logo-footer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-footer {
+    display: block;
+  }
+  .wrapper {
+    flex-direction: row;
+    gap: 12px;
+  }
+  .links-footer {
+    order: 3;
+  }
+}

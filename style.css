@@ -7,6 +7,7 @@
 @import url("./css/title.css");
 @import url("./css/comment-projects.css");
 @import url("./css/formulario.css");
+@import url("./css/footer.css");
 
 :root {
   --fontBase: "Poppins", sans-serif;
