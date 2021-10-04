@@ -4,8 +4,9 @@
   align-items: center;
   block-size: 80px;
   margin-block-end: 16px;
-  /*  position: sticky;
-  top: 0; */
+  position: sticky;
+  top: 0;
+  z-index: 10000;
   backdrop-filter: blur(20px);
 }
 

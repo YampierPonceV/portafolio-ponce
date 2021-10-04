@@ -40,12 +40,17 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
   background-repeat: no-repeat;
 }
+
 
 header {
   max-inline-size: 1366px;
