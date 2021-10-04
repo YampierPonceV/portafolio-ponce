@@ -6,6 +6,7 @@
 @import url("./css/card.css");
 @import url("./css/title.css");
 @import url("./css/comment-projects.css");
+@import url("./css/formulario.css");
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -42,6 +43,7 @@ body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
+  background-repeat: no-repeat;
 }
 
 header {

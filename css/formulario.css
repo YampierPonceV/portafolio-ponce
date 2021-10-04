@@ -1,0 +1,70 @@
+.formulario {
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+}
+
+.form-contact {
+  max-width: 545px;
+  display: flex;
+  margin: auto;
+  gap: 16px;
+  flex-direction: column;
+}
+
+form .inputs {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+p.copy-form {
+  color: var(--white);
+}
+
+form .inputs input {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid #858c94;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  font: var(--body1);
+}
+
+button.button-form {
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+form label {
+  color: var(--purple);
+  font: bold var(--body1);
+  margin-left: 16px;
+}
+
+form span.important {
+  color: #dc143c;
+}
+
+form textarea {
+  resize: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid #858c94;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  font: var(--body1);
+}
+
+@media screen and (min-width: 780px) {
+  .form-contact {
+    align-items: center;
+  }
+  p.copy-form {
+    text-align: center;
+  }
+}

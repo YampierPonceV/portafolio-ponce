@@ -1,5 +1,5 @@
-a.button,
-a.is-active {
+.button,
+.is-active {
   text-decoration: none;
   background: var(--purple);
   color: var(--white);
@@ -13,7 +13,7 @@ a.is-active {
   text-align: center;
 }
 
-a.is-active {
+.is-active {
   border: 2px solid var(--purple);
   color: var(--purple);
   background: transparent;
